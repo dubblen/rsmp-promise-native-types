@@ -1,4 +1,10 @@
-/// <reference types="node" />
+// Type definitions for rsmq 0.12.3
+// Project: https://github.com/smrchy/rsmq
+// Definitions by: Nathan Němec <https://github.com/dubblen>
+// Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
+// TypeScript Version: 3.9.5
+
+/// <reference types="rsmq" />
 
 declare module 'rsmq-promise-native' {
     import RedisSMQ from "rsmq"
